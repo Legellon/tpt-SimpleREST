@@ -1,0 +1,17 @@
+GET http://localhost:3000/user/legellon
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "id": 3,
+    "username": "string",
+    "firstName": "string",
+    "lastName": "string",
+    "email": "string",
+    "password": "string",
+    "phone": "string",
+    "userStatus": 0
+}
